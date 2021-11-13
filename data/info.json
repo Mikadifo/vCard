@@ -1,0 +1,12 @@
+{
+  "nameEmployee": "Juanit",
+  "nameCity": "Cuenta",
+  "scheduleEmployee": "10h00",
+  "emailEmployee": "fdsaf@sdfas.com",
+  "celEmployee": "0917897",
+  "pagWebEmployee": "https://www.google.com",
+  "city": {
+    "codeCity": "120",
+    "nameCity": "QUITO"
+  }
+}
