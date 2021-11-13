@@ -1,36 +1,70 @@
 [
   {
-    "nameEmployee": "Juanit",
-    "scheduleEmployee": "10h00",
-    "emailEmployee": "fdsaf@sdfas.com",
-    "celEmployee": "0917897",
-    "pagWebEmployee": "https://www.google.com",
-    "urlImgEmployee": "ruta",
+    "nameEmployee": "Roy Morocho",
+    "scheduleEmployee": "09h00-19h00",
+    "emailEmployee": "roy.morocho.est@tecazuay.edu.ec",
+    "celEmployee": "0980385997",
+    "pagWebEmployee": "https://github.com/RoyMorocho",
+    "urlImgEmployee": "/img/roymorocho.png",
     "city": {
-      "codeCity": "120",
-      "nameCity": "QUITO"
+      "codeCity": "001",
+      "nameCity": "CUENCA"
     },
     "shop": {
-      "codeCity": "120",
-      "codeShop": "120",
+      "codeCity": "001",
+      "codeShop": "001",
       "nameShop": "Coral Hipermecados"
     }
   },
   {
-    "nameEmployee": "Pedrito",
-    "scheduleEmployee": "10h00",
-    "emailEmployee": "fdsaf@sdfas.com",
-    "celEmployee": "0917897",
-    "pagWebEmployee": "https://www.google.com",
-    "urlImgEmployee": "ruta",
+    "nameEmployee": "Michael Padilla",
+    "scheduleEmployee": "10h00-19h00",
+    "emailEmployee": "michael.padilla@tecazuay.edu.ec",
+    "celEmployee": "0996852041",
+    "pagWebEmployee": "https://github.com/Mikadifo",
+    "urlImgEmployee": "/img/mikadifo.jpg",
     "city": {
-      "codeCity": "120",
+      "codeCity": "002",
       "nameCity": "QUITO"
     },
     "shop": {
-      "codeCity": "120",
-      "codeShop": "120",
-      "nameShop": "Coral Hipermecados"
+      "codeCity": "002",
+      "codeShop": "002",
+      "nameShop": "Ferreteria Delgado Travel"
+    }
+  },
+  {
+    "nameEmployee": "Fernanda Toledo",
+    "scheduleEmployee": "07h00-17h00",
+    "emailEmployee": "maria.toledo.est@tecazuay.edu.ec",
+    "celEmployee": "0994014643",
+    "pagWebEmployee": "https://github.com/FerTole21104",
+    "urlImgEmployee": "/img/fernanda.jpg",
+    "city": {
+      "codeCity": "003",
+      "nameCity": "GUAYAQUIL"
+    },
+    "shop": {
+      "codeCity": "003",
+      "codeShop": "003",
+      "nameShop": "ETAPA"
+    }
+  },
+  {
+    "nameEmployee": "Paul Sanunga",
+    "scheduleEmployee": "10h00-19h30",
+    "emailEmployee": "brandon.sanunga.est@tecazuay.edu.ec",
+    "celEmployee": "0987746915",
+    "pagWebEmployee": "https://github.com/Dormamud03",
+    "urlImgEmployee": "/img/paul.jpg",
+    "city": {
+      "codeCity": "004",
+      "nameCity": "IMBABURA"
+    },
+    "shop": {
+      "codeCity": "004",
+      "codeShop": "004",
+      "nameShop": "Imprenta Clarita"
     }
   }
 ]
