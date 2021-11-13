@@ -12,23 +12,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class IndexController {
 
-    // @Autowired
-    // private List<Employee> employees;
-
-    // @GetMapping("/employee")
-    // public String ver(Model model) {
-    // model.addAttribute("employees", employees);
-    // model.addAttribute("titulo", "Lista de Empleados");
-
-    // return "index";
-    // }
     @Autowired
     private List<Employee> employees;
 
     @GetMapping("/")
     public String index(Model model) {
         model.addAttribute("employees", employees);
-        model.addAttribute("titulo", "Lista de Empleados");
+        model.addAttribute("title", "Lista de Empleados");
 
         return "index";
     }
