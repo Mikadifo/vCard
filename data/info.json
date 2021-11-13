@@ -1,18 +1,36 @@
-{
-  "nameEmployee": "Juanit",
-  "nameCity": "Cuenta",
-  "scheduleEmployee": "10h00",
-  "emailEmployee": "fdsaf@sdfas.com",
-  "celEmployee": "0917897",
-  "pagWebEmployee": "https://www.google.com",
-  "urlImgEmployee": "ruta",
-  "city": {
-    "codeCity": "120",
-    "nameCity": "QUITO"
+[
+  {
+    "nameEmployee": "Juanit",
+    "scheduleEmployee": "10h00",
+    "emailEmployee": "fdsaf@sdfas.com",
+    "celEmployee": "0917897",
+    "pagWebEmployee": "https://www.google.com",
+    "urlImgEmployee": "ruta",
+    "city": {
+      "codeCity": "120",
+      "nameCity": "QUITO"
+    },
+    "shop": {
+      "codeCity": "120",
+      "codeShop": "120",
+      "nameShop": "Coral Hipermecados"
+    }
   },
-  "shop":{
-    "codeCity": "120",
-    "codeShop": "120",
-    "nameShop": "Coral Hipermecados"
+  {
+    "nameEmployee": "Pedrito",
+    "scheduleEmployee": "10h00",
+    "emailEmployee": "fdsaf@sdfas.com",
+    "celEmployee": "0917897",
+    "pagWebEmployee": "https://www.google.com",
+    "urlImgEmployee": "ruta",
+    "city": {
+      "codeCity": "120",
+      "nameCity": "QUITO"
+    },
+    "shop": {
+      "codeCity": "120",
+      "codeShop": "120",
+      "nameShop": "Coral Hipermecados"
+    }
   }
-}
+]

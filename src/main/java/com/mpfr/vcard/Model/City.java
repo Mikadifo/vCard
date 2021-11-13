@@ -1,5 +1,8 @@
 package com.mpfr.vcard.Model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class City {
 
     private String codeCity;

@@ -1,21 +1,23 @@
 package com.mpfr.vcard.Model;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Employee {
 
     private String nameEmployee;
-    private String nameCity;
     private String scheduleEmployee;
     private String emailEmployee;
     private String celEmployee;
     private String pagWebEmployee;
     private String urlImgEmployee;
+    @Autowired
     private City city;
+    @Autowired
     private Shop shop;
 
-    public Employee(String nameEmployee, String nameCity, String scheduleEmployee, String emailEmployee,
-            String celEmployee, String pagWebEmployee, String urlImgEmployee, City city, Shop shop) {
+    public Employee(String nameEmployee, String scheduleEmployee, String emailEmployee, String celEmployee,
+            String pagWebEmployee, String urlImgEmployee, City city, Shop shop) {
         this.nameEmployee = nameEmployee;
-        this.nameCity = nameCity;
         this.scheduleEmployee = scheduleEmployee;
         this.emailEmployee = emailEmployee;
         this.celEmployee = celEmployee;
@@ -48,20 +50,6 @@ public class Employee {
      */
     public void setNameEmployee(String nameEmployee) {
         this.nameEmployee = nameEmployee;
-    }
-
-    /**
-     * @return String return the nameCity
-     */
-    public String getNameCity() {
-        return nameCity;
-    }
-
-    /**
-     * @param nameCity the nameCity to set
-     */
-    public void setNameCity(String nameCity) {
-        this.nameCity = nameCity;
     }
 
     /**
@@ -130,8 +118,8 @@ public class Employee {
 
     @Override
     public String toString() {
-        return this.nameEmployee + " " + this.nameCity + " " + this.celEmployee + " " + this.emailEmployee + " "
-                + this.pagWebEmployee + " " + this.scheduleEmployee + "--" + this.city.getCodeCity();
+        return this.nameEmployee + " " + this.celEmployee + " " + this.emailEmployee + " " + this.pagWebEmployee + " "
+                + this.scheduleEmployee + "--" + this.city.getCodeCity();
     }
 
     /**
