@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xml>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link th:href="@{/css/table.css}" rel="stylesheet" />
+    <link th:href="@{/css/center.css}" rel="stylesheet" />
+    <title>Document</title>
+    <!-- solo de ejemplo -->
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 100%;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Vcard!</h3>
+
+    <table style="margin-left: auto;margin-right: auto;" class="styled-table">
+        <thead>
+            <tr>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- vcard para iterar-->
+                <td>
+                    <div class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <!-- <div class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div> -->
+                </td>
+                <td>
+                    <!-- <div class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div> -->
+                </td>
+                <td>
+                    <!-- <div class="card">
+                        <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>John Doe</b></h4>
+                            <p>Architect & Engineer</p>
+                        </div>
+                    </div> -->
+                </td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</html>
