@@ -8,10 +8,12 @@ public class Employee {
     private String emailEmployee;
     private String celEmployee;
     private String pagWebEmployee;
+    private String urlImgEmployee;
     private City city;
+    private Shop shop;
 
     public Employee(String nameEmployee, String nameCity, String scheduleEmployee, String emailEmployee,
-            String celEmployee, String pagWebEmployee, City city) {
+            String celEmployee, String pagWebEmployee, String urlImgEmployee, City city, Shop shop) {
         this.nameEmployee = nameEmployee;
         this.nameCity = nameCity;
         this.scheduleEmployee = scheduleEmployee;
@@ -19,9 +21,19 @@ public class Employee {
         this.celEmployee = celEmployee;
         this.pagWebEmployee = pagWebEmployee;
         this.city = city;
+        this.shop = shop;
+        this.urlImgEmployee = urlImgEmployee;
     }
 
     public Employee() {
+    }
+
+    public Shop getShop() {
+        return shop;
+    }
+
+    public void setShop(Shop shop) {
+        this.shop = shop;
     }
 
     /**
@@ -120,6 +132,20 @@ public class Employee {
     public String toString() {
         return this.nameEmployee + " " + this.nameCity + " " + this.celEmployee + " " + this.emailEmployee + " "
                 + this.pagWebEmployee + " " + this.scheduleEmployee + "--" + this.city.getCodeCity();
+    }
+
+    /**
+     * @return String return the urlImgEmployee
+     */
+    public String getUrlImgEmployee() {
+        return urlImgEmployee;
+    }
+
+    /**
+     * @param urlImgEmployee the urlImgEmployee to set
+     */
+    public void setUrlImgEmployee(String urlImgEmployee) {
+        this.urlImgEmployee = urlImgEmployee;
     }
 
 }
